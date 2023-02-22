@@ -1,0 +1,54 @@
+body
+{
+    margin:0;
+    box-sizing: border-box;
+}
+header   
+{
+background:linear-gradient(45deg,rgb(105, 57, 194),white);
+color: white;
+text-align: center;
+width: 100%;
+display: block;
+padding: 20px;
+}
+table,tr, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 32px;
+text-align: center;
+
+
+}
+.table-design{
+margin-left: auto;
+margin-right:auto;
+margin-top: auto;
+padding: 50px;
+}
+table#table-design th
+{
+vertical-align: middle;
+
+}
+tr th:nth-child(7)
+{
+writing-mode:vertical-lr ;
+}
+
+tr >th
+{
+background:linear-gradient(rgba(143, 72, 72, 0.74),rgb(140, 205, 224));
+}
+
+td
+{
+    background-color: rgb(224, 101, 198);
+    
+}
+div
+{
+    padding: 40px;
+    
+
+}
